@@ -21,12 +21,9 @@ Install imgaug first:
 
 `python setup.py install`
 
-
-Install lxml: 
-
-`pip install lxml`
-
 Other dependencies:
+
+- lxml
 - opencv
 - numpy
 - pandas
