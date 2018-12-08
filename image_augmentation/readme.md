@@ -1,4 +1,4 @@
-# Image Augmentation using imgaug
+# Image Augmentation
 Esther Ling, 2018
 
 # Overview
@@ -12,6 +12,7 @@ Assuming existing images with bounding boxes and labels in PASCAL VOC format (XM
 
 # Setup
 Install imgaug first:
+
 `pip install six numpy scipy Pillow matplotlib scikit-image opencv-python imageio Shapely`
 
 `git clone https://github.com/aleju/imgaug`
@@ -20,7 +21,10 @@ Install imgaug first:
 
 `python setup.py install`
 
-Install lxml: `pip install lxml`
+
+Install lxml: 
+
+`pip install lxml`
 
 Other dependencies:
 - opencv
@@ -43,8 +47,7 @@ C. To generate a .csv list of train and test images that can be used with the Te
 `python xml_to_csv.py <path-to-image-folder> <image-extension>`
 
 
-Note:
-
+# Notes
 - imgaug seems to have trouble with computing the correct bounding box location under affine transformations
 
 
